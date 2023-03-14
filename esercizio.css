@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item1 {
+    background-color: rgb(110, 110, 110);
+}
+
+.item2 {
+    background-color: rgb(151, 151, 151);
+}
+
+.item3 {
+    background-color: rgb(185, 185, 185);
+}
+
+.item4 {
+    background-color: rgb(221, 221, 221);
+}
+
+.grid div {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}

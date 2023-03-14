@@ -1,0 +1,27 @@
+.top-nav {
+    overflow: hidden;
+    background-color: rgba(3, 7, 10, 0.6);
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    background-color: rgb(105, 125, 133);
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+
+    .top-nav a {
+        float: none;
+        width: 100%;
+    }
+
+}
